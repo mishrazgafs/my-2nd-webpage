@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(rgb(126, 126, 126), rgb(37, 37, 37));
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#navigation{
+    background:linear-gradient(rgb(105, 104, 104),rgb(63, 63, 63));
+    color: rgb(14, 14, 14);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+#nav-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#nav-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    font-size: 16px;
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.top-img{
+    height: 250px;
+    width: 200px;
+    vertical-align: middle;
+    border-radius: 50px;
+}
+.title{
+    color: whitesmoke;
+    text-shadow: 0 0 4px black;
+}
+.tam{
+    color: whitesmoke;
+    text-shadow: 0 0 3px black;
+}
+.tim{
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(0, 255, 255);
+}
+.vids{ 
+    margin: 5px 10px;
+    color: rgb(150, 150, 150);
+    text-shadow: 0 0 4px black;
+    border-radius: 20px;
+}
+.wtr{
+    text-decoration: underline;
+}
+.laugh{
+    color: whitesmoke;
+    background: linear-gradient(grey, black);
+}
+.ml{
+    background-color: black;
+}
